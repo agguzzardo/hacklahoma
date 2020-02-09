@@ -28,7 +28,6 @@ body{
 	background: #fafafa;
 	margin: 85px auto;
 	border: solid 2px #0d1140;
-	text-align: center;
 }
 h1 {
 	text-align: center;
@@ -39,7 +38,6 @@ h1 {
 }
 table{
 	margin-top: 80px;
-	text-align: center;
 	font-family: "Candara";
 	font-size: 18pt;
 	text-indent: 15px;
@@ -47,4 +45,7 @@ table{
 input {
 	font-family: "Candara";
 	font-size: 18pt;
+}
+button {
+	margin-left: 265px;
 }

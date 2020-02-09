@@ -23,6 +23,7 @@ h1 {
 	font-size: 14pt;
 	color: ##fafafa;
 	margin-right: 15px;
+	margin-top: 20px;
 }
 #navBar {
 	width: 1485px;
@@ -42,5 +43,9 @@ h1 {
 	margin-top: -64.5px;
 	margin-right: 15px;
 	font-family:"Candara";
+	font-size: 18pt;
+}
+input {
+		font-family:"Candara";
 	font-size: 18pt;
 }
