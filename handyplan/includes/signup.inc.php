@@ -25,7 +25,7 @@ if(isset($_POST['register-submit'])){
 			exit();
 		}
 		else{
-			sysqli_stmt_bind_param($statement, "s", $username);
+			mysqli_stmt_bind_param($statement, "s", $username);
 			mysqli_stmt_execute($statement);
 			mysqli_stmt_store_result($statement);
 			$result = mysqli_stmt_num_rows();
@@ -42,7 +42,7 @@ if(isset($_POST['register-submit'])){
 				}
 				else{
 					$hashpass = password_hash($password, PASSWORD_DEFAULT);
-					sysqli_stmt_bind_param($statement, "sssss", $username, $hashpass, $email, $firstname, $lastname);
+					mysqli_stmt_bind_param($statement, "sssss", $username, $hashpass, $email, $firstname, $lastname);
 					mysqli_stmt_execute($statement);
 					header("Location: ../login.html?signup=success");
 					exit();
