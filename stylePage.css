@@ -1,0 +1,38 @@
+body {
+background-image: url("peaceful-blur-background-4k_1555207903.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+text-align: center;
+}
+#main {
+	width: 600px;
+	height: 500px;
+	background: #fafafa;
+	margin: 25px auto;
+	border: solid 2px #0d1140;
+}
+h1 {
+	text-align: center;
+	margin-top:35px;
+	font-family:"Times New Roman";
+	font: 35pt;
+	color: #4d4d4d;
+}
+input {
+	font-family:"Candara";
+	font-size: 18pt;
+}
+table {
+	font-family:"Candara";
+	font-size: 18pt;
+	text-align: left;
+	color: #4d4d4d;
+	margin-top:90px;
+	margin-left: 120px
+}
+#createAccount {
+	font-family:"Times New Roman";
+	font-size: 14pt;
+	color: #f2f2f2;
+}
+	
