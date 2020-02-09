@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>handiplan</title>
+		<link href="stylePage.css" type="text/css" rel="stylesheet">
+	</head>
+	<body>
+		<div id="main">
+			<h1>Login</h1>
+			<form action="includes/login.inc.php" method="post">
+			<table>
+				<tr>
+					<td>
+						Username :
+					</td>
+					<td>
+						<input type="text" placeholder="Username" name="un">
+					</td>
+				</tr>
+
+				<tr>
+					<td>
+						Password :
+					</td>
+					<td>
+						<input type="password" placeholder="Password" name="pwd">
+					</td>
+				</tr>
+			</table>
+			<br>
+			<input type="submit" value="Log in" name="login-submit">
+			</form>
+		</div>
+		<div id="createAccount">
+			Don't have an account? <a href="signUpPage.html">Create an account here!</a>
+		</div>
+	</body>
+</html>
