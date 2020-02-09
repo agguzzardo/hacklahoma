@@ -1,28 +1,33 @@
-body{
+body {
 	background-image: url("peaceful-blur-background-4k_1555207903.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 }
-#main{
-	width: 600px;
-	height: 500px;
+#main {
+	width:500px;
+	height: 350px;
 	background: #fafafa;
-	margin: 85px auto;
-	border: solid 2px #0d1140;
+	margin: auto;
+	font-family: "Candara";
+	font-size: 18pt;
 	text-align: center;
+	color: #4d4d4d;
+}
+h1 {
+	font-size: 25pt;
+	color:#4d4d4d;
+}
+#logIn {
+	text-align:right;
+	font-family: "Times New Roman";
+	font-size: 14pt;
+	color: ##fafafa;
+	margin-right: 15px;
 }
 #navBar {
 	width: 1485px;
 	height: 50px;
 	background: #fafafa;
-}
-h1 {
-	text-align: center;
-	margin-top:35px;
-	font-family:"Times New Roman";
-	font: 35pt;
-	color: #4d4d4d;
-	text-align: center;
 }
 #webName{
 	text-align:left;
@@ -36,17 +41,6 @@ h1 {
 	text-align:right;
 	margin-top: -64.5px;
 	margin-right: 15px;
-	font-family:"Candara";
-}
-table{
-	font-family:"Candara";
-	font-size: 18pt;
-	text-align: left;
-	color: #4d4d4d;
-	margin-top:70px;
-	margin-left: 63px
-}
-input{
 	font-family:"Candara";
 	font-size: 18pt;
 }
